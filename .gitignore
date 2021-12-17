@@ -1,0 +1,8 @@
+/tmp
+/logs/app
+/logs/request
+/logs/panic
+go.sum
+.idea/*
+.gin-bin
+.main
