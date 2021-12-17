@@ -1,3 +1,3 @@
 #!/bin/bash
-docker-compose build
-docker-compose up -d
+docker build -f Dockerfile -t motor-mini-backend-web .
+docker run -idt -p 8000:8000 motor-mini-backend-web
